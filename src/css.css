@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Logo en la parte izquierda */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Ajuste del tamaño del logotipo */
+.logo img {
+    max-width: 70px; /* Establece el ancho máximo deseado */
+}
+
+/* Barra de navegación en el centro */
+nav {
+    display: flex;
+    gap: 20px;
+    flex: 1; /* Ocupa el espacio disponible en el centro */
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: aqua;
+}
+
+/* Barra de búsqueda en la derecha */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 250px;
+}
+
+/* Ajuste del tamaño del botón de búsqueda */
+.search-bar button img {
+    max-width: 20px; /* Establece el ancho máximo deseado */
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 80%;
+}
+
+/* Estilos para el botón de búsqueda */
+.buscador {
+    display: flex;
+    border: none;
+}
+
+.boton {
+    text-decoration: none;
+    background-color: rgb(65, 65, 250);
+    border-radius: 22%;
+    padding: 5px;
+}
+
+.boton {
+    color: #fff;
+}
+
+.boton:hover{
+    background-color: #333;
+}
